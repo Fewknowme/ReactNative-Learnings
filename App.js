@@ -8,10 +8,10 @@ const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Components: ComponentsScreen,
-    ListScreen: ListScreen
+    List: ListScreen
   },
   {
-    initialRouteName: 'ListScreen',
+    initialRouteName: 'Home',
     defaultNavigationOptions: {
       title: 'App',
     },
