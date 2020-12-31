@@ -1,7 +1,6 @@
 import React from "react";
 import { Text, StyleSheet, View, Button } from "react-native";
 
-
 const HomeScreen = ({navigation}) => {
     return (
     <View> 
@@ -11,9 +10,14 @@ const HomeScreen = ({navigation}) => {
         title="Go To Components Demo"
         onPress={()=> navigation.navigate('Components')}
         />
-        <Button onPress={()=> navigation.navigate('List')}
+        <Button 
+        onPress={()=> navigation.navigate('List')}
          title="Go To List Demo"
-         />   
+         />
+         <Button
+          onPress={()=> navigation.navigate('img')} 
+          title="Go to ImageList"
+         />
     </View>
     )
     ;
