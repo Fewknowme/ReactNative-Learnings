@@ -29,6 +29,10 @@ const HomeScreen = ({ navigation }) => {
 				onPress={() => navigation.navigate("intensity")}
 				title="Go to Intensity ColorScreen"
 			/>
+			<Button
+				onPress={() => navigation.navigate("text")}
+				title="Go to TextScreen"
+			/>
 		</View>
 	);
 };
